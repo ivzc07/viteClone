@@ -40,7 +40,7 @@ export default function CardsContainer(){
                                 return(
                                     <article id="card">
                                         <div id='icon'>{item.icon}</div>
-                                        <div id='title'>{item.title}</div>
+                                        <div id='title-card'>{item.title}</div>
                                         <div id='text'>{item.text}</div>
                                     </article>
                                 )
