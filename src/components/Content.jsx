@@ -1,6 +1,8 @@
-
+import Buttons from './Buttons'
 export default function Content (){
+    
     return(
+        <>
         <div id='content-container'>
             <div id='grid-container'>
                 <div id='right-side-content-area'>
@@ -14,8 +16,7 @@ export default function Content (){
                                 Get ready for a development environment that can finally catch up with you.</p>
                         </p>
                         <div className="buttons-right-side-content">
-                            <anchor className="button-style">Get Started</anchor>
-                        
+                          <Buttons/>
                         </div>
                     </div>
     
@@ -26,5 +27,6 @@ export default function Content (){
                 </div>   
             </div>
         </div>
+    </>
     )
 }
